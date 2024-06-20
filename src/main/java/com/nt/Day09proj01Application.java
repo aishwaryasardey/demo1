@@ -13,6 +13,7 @@ public class Day09proj01Application {
 		ConfigurableApplicationContext ctx =SpringApplication.run(Day09proj01Application.class, args);
 		Employee emp=ctx.getBean("emp",Employee.class);
 		System.out.println(emp);
+		System.out.println("employee");
 		
 	}
 
